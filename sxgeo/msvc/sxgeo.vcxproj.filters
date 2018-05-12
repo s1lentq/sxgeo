@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4811ed29-d86f-485c-b4aa-cf72842f58c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{b3516c77-03aa-4015-b79b-1f288c90ab6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\metamod">
+      <UniqueIdentifier>{4f37086d-6e0a-44c3-aa24-a12bc6b39f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sxgeo">
+      <UniqueIdentifier>{21f278e0-1730-4a89-8ad2-45f28d44038e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\metamod\dllapi.h">
+      <Filter>include\metamod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\metamod\engine_api.h">
+      <Filter>include\metamod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\metamod\enginecallbacks.h">
+      <Filter>include\metamod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\metamod\h_export.h">
+      <Filter>include\metamod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\metamod\meta_api.h">
+      <Filter>include\metamod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\metamod\mutil.h">
+      <Filter>include\metamod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\metamod\plinfo.h">
+      <Filter>include\metamod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\amxxmodule.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\precompiled.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sxgeo\db.h">
+      <Filter>src\sxgeo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sxgeo\header.h">
+      <Filter>src\sxgeo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sxgeo\location.h">
+      <Filter>src\sxgeo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sxgeo\raw_city_access.h">
+      <Filter>src\sxgeo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sxgeo\raw_country_access.h">
+      <Filter>src\sxgeo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sxgeo\raw_region_access.h">
+      <Filter>src\sxgeo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sxgeo\uint24_t.h">
+      <Filter>src\sxgeo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\amxx_natives.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sxgeo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\amxxmodule.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\precompiled.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\meta_api.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\h_export.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sxgeo\db.cpp">
+      <Filter>src\sxgeo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sxgeo\location.cpp">
+      <Filter>src\sxgeo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\amxx_natives.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sxgeo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

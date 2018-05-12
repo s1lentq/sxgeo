@@ -1,0 +1,9 @@
+[en]
+CINFO_JOINED = ^3%s^1 connected
+CINFO_FROM = from
+CINFO_COUNTRY = ^4%s
+
+[ru]
+CINFO_JOINED = ^3%s^1 присоединился к нам
+CINFO_FROM = из
+CINFO_COUNTRY = ^4%s
