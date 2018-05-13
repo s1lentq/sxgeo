@@ -44,21 +44,6 @@ struct RawCityAccess
 	{
 		return header->lon / std::pow(10, 5);  // N5:lon
 	}
-
-	explicit operator std::string() const
-	{
-		std::stringstream result;
-
-		result << "region_seek: " << header->region_seek << std::endl;
-		result << "country_id: " << header->country_id << std::endl;
-		result << "id: " << header->id << std::endl;
-		result << "lat: " << header->lat << " (" << getLat() << ")" << std::endl;
-		result << "lon: " << header->lon << " (" << getLon() << ")" << std::endl;
-		result << "name_ru: " << name_ru << std::endl;
-		result << "name_en: " << name_en;
-
-		return result.str();
-	}
 };
 
 #pragma pack(pop)
