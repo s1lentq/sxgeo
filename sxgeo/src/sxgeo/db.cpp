@@ -161,7 +161,7 @@ std::uint32_t Db::getLocationOffset(const char *ip) const
 	std::uint8_t firstByte = getFirstIpByte(ip);
 	std::uint32_t ipn = inet_addr(ip);
 
-	if (0 == firstByte || 10 == firstByte || 127 == firstByte || firstByte > header.b_idx_len || INADDR_NONE == ipn)
+	if (0 == firstByte || 10 == firstByte || 127 == firstByte || firstByte >= header.b_idx_len || INADDR_NONE == ipn)
 		return 0;
 
 	ipn = bswap_32(ipn);
