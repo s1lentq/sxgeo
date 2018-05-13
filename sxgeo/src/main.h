@@ -20,10 +20,11 @@
 
 // AmxModX API
 #include "amxxmodule.h"
-#include "amxx_natives.h"
 
 // sxgeo
 #include "sxgeo.h"
+
+#include "amxx_natives.h"
 
 void OnAmxxAttach();
 bool OnMetaAttach();
