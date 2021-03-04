@@ -22,7 +22,7 @@
 *
 * @return           true on a successful lookup, false on a failed lookup.
 */
-native bool:sxgeo_code(const ip[], output[3]);
+native bool:sxgeo_code(const ip[], output[], const len, const lang[] = "en");
 
 /*
 * Look up the full country name for the given IP address.

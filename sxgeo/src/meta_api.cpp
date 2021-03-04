@@ -26,7 +26,7 @@ plugin_info_t Plugin_info =
 {
 	META_INTERFACE_VERSION,			// ifvers
 	"SxGeo",				// name
-	"2.2",					// version
+	"2.3",					// version
 	__DATE__,				// date
 	"s1lent",				// author
 	"https://github.com/s1lentq/sxgeo/",	// url
