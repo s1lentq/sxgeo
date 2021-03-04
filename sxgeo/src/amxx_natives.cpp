@@ -27,7 +27,7 @@
 *
 * @return           true on a successful lookup, false on a failed lookup.
 *
-* native bool:sxgeo_code(const ip[], output[3]);
+* native bool:sxgeo_code(const ip[], output[], const len, const lang[] = "en");
 */
 cell AMX_NATIVE_CALL sxgeo_code(AMX *amx, cell *params)
 {
@@ -39,7 +39,7 @@ cell AMX_NATIVE_CALL sxgeo_code(AMX *amx, cell *params)
 		const char *lang = getAmxString(amx, params[arg_lang], langbuf);
 
 		cell *dest = getAmxAddr(amx, params[arg_output]);
-		setAmxString(dest, loc->getRegionIso().c_str(), params[arg_len]);
+		setAmxString(dest, loc->getCountryIso().c_str(), params[arg_len]);
 		return TRUE;
 	});
 }
